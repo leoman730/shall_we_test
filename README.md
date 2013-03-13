@@ -14,7 +14,7 @@ As mentions above, this project basically pulling ideas from the resources that 
 
 4. https://github.com/WaterfallEngineering/SpookyJS
 
-Environement:
+## Environement:
 I am running on the following environment:
 * Mac OS 10.8.2
 * brew 0.9.4
@@ -22,10 +22,15 @@ I am running on the following environment:
 * phantomjs 1.8.1
 
 
-Rerequisites:
-* Install Casperjs: "$ brew install casperjs"
-* Install Phantomjs "$ brew install phantomjs"
+## Rerequisites:
+```
+// Install Casperjs: 
+$ brew install casperjs
 
+// Install Phantomjs 
+$ brew install phantomjs
+
+```
 
 
 To use coloring option in cucumber, you will need to optionally download the color branch 
