@@ -1,3 +1,5 @@
+# Shall We Test
+
 This project will set up a basic working template for testing environment. It basically pulling ideas from many other resources together to make test easier.
 
 After setup completed, we should have a working test environment that enable test using: cucumberjs, casperjs, mochajs.
@@ -21,8 +23,8 @@ I am running on the following environment:
 
 
 Rerequisites:
-1. Install Casperjs: "$ brew install casperjs"
-2. Install Phantomjs "$ brew install phantomjs"
+* Install Casperjs: "$ brew install casperjs"
+* Install Phantomjs "$ brew install phantomjs"
 
 
 
