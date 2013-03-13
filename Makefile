@@ -43,7 +43,7 @@ fixture-server:
 #
 #
 
-example_cucumber_test:  make-pid-file
+example_cucumber_test:  fixture-server
 	@TEST_PORT=$(TEST_PORT) $(NODE_MODULES)/.bin/cucumber.js \
 			-f pretty \
 			examples/cucumber/features/ \
@@ -54,6 +54,8 @@ example_cucumber_test:  make-pid-file
 		exit $$STATUS
 
 
+
+# May need to modify symbolic link in the .bin directory
 cucumber-colors: fixture-server
 		@TEST_PORT=$(TEST_PORT) $(NODE_MODULES)/.bin/cucumber-colors.js \
 			-f pretty \
