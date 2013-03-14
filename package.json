@@ -10,7 +10,10 @@
         "async": "0.1.x",
         "tiny-jsonrpc": "0.2.x",
         "carrier": "0.1.x",
-        "duplexer": "0.0.x"
+        "duplexer": "0.0.x",
+        "lint": "*",
+        "grunt": "~0.3.17"
+
     },
 
     "devDependencies": {
@@ -20,5 +23,8 @@
         "http-server": "0.5.x"
     },
 
+    "scripts": {
+        "test": "grunt travis --verbose"
+    }
     "license": "MIT"
 }
