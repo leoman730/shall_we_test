@@ -1,4 +1,5 @@
-# Shall We Test
+# Shall We Test [![Build Status](https://travis-ci.org/leoman730/shall_we_test.png)](https://travis-ci.org/leoman730/shall_we_test)
+
 
 This project will set up a basic working template for testing environment. It basically pulling ideas from many other resources together to make test easier.
 
