@@ -11,20 +11,18 @@
         "tiny-jsonrpc": "0.2.x",
         "carrier": "0.1.x",
         "duplexer": "0.0.x",
-        "lint": "*",
-        "grunt": "~0.3.17"
-
     },
-
     "devDependencies": {
         "mocha": "1.3.x",
         "expect.js": "0.1.x",
         "cucumber": "*",
-        "http-server": "0.5.x"
+        "http-server": "0.5.x",
+        "lint": "*",
+        "grunt": "~0.3.17"
     },
 
     "scripts": {
         "test": "grunt travis --verbose"
-    }
+    },   
     "license": "MIT"
 }
